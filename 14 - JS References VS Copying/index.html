@@ -102,9 +102,9 @@
     console.log(person2, dev);
     
     dev.social.twitter = '@coolman'
-    console.log(person2, dev);
+    console.log(person2, dev); // it changes in both objects bc its 1 level deep!
      
-    
+    const dev2 = JSON.parse(JSON.stringify(wes)); // not recommended
 
   </script>
 
